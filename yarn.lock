@@ -458,6 +458,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/addon-controls@npm:^9.0.8":
+  version: 9.0.8
+  resolution: "@storybook/addon-controls@npm:9.0.8"
+  checksum: cfde9dcafeeec4da8095406ce03e0f301c0731a1b965769f981acfedae4d61487c18e15583142ed2755a5a75ddec4dc11759b066ec20d0e5855603b8d54a9b85
+  languageName: node
+  linkType: hard
+
 "@storybook/builder-vite@npm:10.3.4":
   version: 10.3.4
   resolution: "@storybook/builder-vite@npm:10.3.4"
@@ -2402,6 +2409,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "storybook-10-vue-3-sample@workspace:."
   dependencies:
+    "@storybook/addon-controls": "npm:^9.0.8"
     "@storybook/vue3-vite": "npm:^10.3.4"
     "@types/node": "npm:^24.12.2"
     "@vitejs/plugin-vue": "npm:^6.0.5"
